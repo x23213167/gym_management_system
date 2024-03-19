@@ -120,8 +120,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')  # Change the directory name if needed
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'gym/static'),
+    os.path.join(BASE_DIR, 'static'),
 ]
