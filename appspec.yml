@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files: 
   - source: /
-    destination: /home/ubuntu/gym
+    destination: /home/ubuntu/gym_management_system
 permissions:
   - object: /home/ubuntu/gym_management_system
     owner: ubuntu
